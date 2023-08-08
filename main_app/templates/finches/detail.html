@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Finch Details</h1>
+
+<div>
+    <div class = 'finches'>
+    <p class ='name'>{{finch.name}}</p>    
+    <p>Type: {{ finch.type }}</p>
+    <p>Color: {{ finch.color}}</p>
+    <p>Age: {{ finch.age }}</p>
+    <a href = "{% url 'finches_update' finch.id %}" class = "btn">Edit</a>
+    <a href = "{% url 'finches_delete' finch.id %}" class = "btn">Delete</a>
+  </div>
+</div>
+{% endblock %}
