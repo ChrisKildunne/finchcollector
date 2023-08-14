@@ -54,3 +54,36 @@ body {
     font-size: 16px; 
     border-radius: 5px;
   }
+
+  .form-card input[type="text"],
+.form-card select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.striped{
+  margin-top: 20px;
+  width: 100%;
+ 
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+th{
+  background-color: #f2f2f2;
+}
+
+
+.card-panel {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
